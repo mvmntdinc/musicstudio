@@ -32,7 +32,9 @@ document.addEventListener('DOMContentLoaded', () => {
         '.about-text',
         '.about-image',
         '.pricing-header',
-        '.card'
+        '.card',
+        '.portfolio-header',
+        '.portfolio-container'
     ];
 
     elementsToAnimate.forEach(selector => {
