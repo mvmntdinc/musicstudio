@@ -448,6 +448,42 @@ ul {
     border-color: rgba(212, 175, 55, 0.2);
 }
 
+/* Lead Form Section */
+.lead-section {
+    padding: 100px 5%;
+    background: linear-gradient(180deg, var(--bg-color) 0%, #111218 100%);
+}
+
+.lead-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.lead-header h2 {
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+
+.lead-header p {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+}
+
+.lead-container {
+    max-width: 650px;
+    margin: 0 auto;
+    background: #ffffff; /* Fundo branco para não bugar o Google Forms escuro/claro */
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    transition: var(--transition);
+}
+
+.lead-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5), 0 0 20px var(--primary-glow);
+}
+
 /* CTA Section */
 .cta-section {
     padding: 100px 5%;

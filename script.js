@@ -34,7 +34,9 @@ document.addEventListener('DOMContentLoaded', () => {
         '.pricing-header',
         '.card',
         '.portfolio-header',
-        '.portfolio-container'
+        '.portfolio-container',
+        '.lead-header',
+        '.lead-container'
     ];
 
     elementsToAnimate.forEach(selector => {
